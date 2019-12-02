@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Softwarica Application"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#3f76ff"
+        android:width="10dp"
+        android:height="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_margin="150dp"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Library"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/btnlibrary"
+            android:width="5dp"
+            android:height="230dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training"
+        android:background="#3f76ff"
+        android:textColor="#fff"
+        android:id="@+id/btntraining"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COurse"
+        android:background="#3f76ff"
+        android:textColor="#fff"
+        android:id="@+id/course"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Staff Details"
+        android:background="#3f76ff"
+        android:textColor="#fff"
+        android:id="@+id/btnstaff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COllege Club"
+        android:background="#3f76ff"
+        android:textColor="#fff"
+        android:id="@+id/btnclub"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assignment"
+        android:background="#3f76ff"
+        android:textColor="#fff"
+        android:id="@+id/btnassignment"/>
+
+</LinearLayout>
